@@ -8,7 +8,7 @@ Input consists of up to 10 test cases. Each test case start with a number 1≤n�
 Output
 For each test case, output the order of package installation that allow them all to be installed with no dependency violations at any point. If there are multiple possible orderings, then give the ordering that is lexicographically first (using ASCII values for string ordering). If there is some group of packages that are not able to be ordered within the list, output ‘cannot be ordered’ instead of ordering the packages. Put a blank line between each pair of test cases.
 
-# Sample Input
+Sample Input
 14
 libattr
 vim-X11 vim-common gtk2 libattr
@@ -30,7 +30,7 @@ xorg-x11
 lisp emacs
 0
 
-# Sample Output
+Sample Output
 atk
 freetype
 glib2
@@ -45,7 +45,7 @@ xorg-x11-libs
 pango
 gtk2
 vim-X11
----------------------
+
 cannot be ordered
 
 
